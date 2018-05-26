@@ -81,6 +81,9 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
 
 #### technical debt
+
+- The external dependencies of the project SHOULD be upgraded to recent stable within 60 days
+
 - The default security mechanisms within the software MUST NOT depend on broken cryptographic algorithms (e.g., MD4, MD5, single DES, RC4, Dual_EC_DRBG), or use cipher modes that are inappropriate to the context, unless they are necessary to implement an interoperable protocol (where the protocol implemented is the most recent version of that standard broadly supported by the network ecosystem, that ecosystem requires the use of such an algorithm or mode, and that ecosystem does not offer any more secure alternative).
 
 - The documentation MUST describe any relevant security risks and any known mitigations if these broken algorithms or modes are necessary for an interoperable protocol.
