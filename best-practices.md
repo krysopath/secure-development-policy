@@ -62,7 +62,7 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
 ## best practices
 
-### crypto
+### technical design choices
 #### open & exellent
 - The software produced by the project MUST use, by default, only cryptographic protocols and algorithms that are publicly published and reviewed by experts (if cryptographic protocols and algorithms are used)
 
