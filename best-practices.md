@@ -122,7 +122,7 @@ A vulnerability is medium to high severity if its CVSS 2.0 base score is 4 or hi
 
 - At least one static code analysis tool (beyond compiler warnings and "safe" language modes) MUST be applied to any proposed major production release of the software before its release, if there is at least one FLOSS tool that implements this criterion in the selected language.
 
-- It is SUGGESTED that at least one of the static analysis tools used for the static_analysis criterion include rules or approaches to look for common vulnerabilities in the analyzed language or environment.
+- It is SUGGESTED that at least one of the static analysis tools used for this include rules or approaches to look for common vulnerabilities in the analyzed language or environment.
 
 ### timely fixes
 
