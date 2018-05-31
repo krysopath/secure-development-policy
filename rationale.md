@@ -57,9 +57,10 @@ In all systems I can think of, automaticity can be abused.
 
 #### suspicion
 
-- Getting supicious is easier, when assuming less about the situation. (most difficult)
+- Getting suspicious is easier, when assuming less about the situation. (most difficult)
 
 - Getting suspicious can save networks! (civil responsibilities)
 
 - Getting suspicious depends strongly on the ability to audit and introspect. (logfiles)
 
+- Getting suspicious is harder, when acting like a script or saving cognitive ressources.
