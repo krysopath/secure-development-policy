@@ -4,7 +4,7 @@ We have a fundamental need for security. It follows, that we take responsibility
 
 Info security is a fundamental scientific, social and engineering challenge, that interacts strongly with many other common properties and events of human life. 
 
-One of the bigger misunderstanding on people selling computer is, that they there is actually not one computer being sold. In truth, a computer consists of many of pieces of hardware, that are actually a complete compuer themselves. These run software interdependently, offloadeding work to each other. All are `fast==trusted==insecure` and have to be taken into account, when describing the security of any computer.
+One of the bigger misunderstanding on buying a computer is that they there is actually not one atomic computer being bought. In truth, a computer consists of many of pieces of hardware, that are actually complete computers themselves. These run software interdependently, offloadeding work to each other. All are `fast==trusted==insecure` and have to be taken into account, when describing the security of any computer.
 
 Xzibits Iron Law of Computer Architecture:
 > Yo dawg, I heard you like computers, so I put a computer in your computer, so you can compute while you compute
@@ -13,7 +13,7 @@ Xzibits Iron Law of Computer Architecture:
 ## reasons for security incidents
 ### technical
 #### conceptual problems
-1. Not identifying security requirements up frona
+1. Not identifying security requirements up front
 2. Creating conceptual designs that have logic errors
 3. Using poor coding practices that introduce technical vulnerabilities
 4. Deploying the software improperly
@@ -45,14 +45,17 @@ When we are feeling familier with the environment and the job or problem, we ten
 Additionally, we build scripts for everything: I am talking about behavioural scripts, that are working exactly like those scripts we write. They are being defined by experiences of common events and the memory how it was easiest to solve. 
 
 - manners
-- waking up routine
+- daily waking-up routine
 - most social interactions
 - learned workflows
+- walking
 
 In all systems I can think of, automaticity can be abused. 
 
 - delivering malware via build pipelines
 - social engineer someone into helping you
+- remoting controlling industrial manufacturing plans with `SCADA` e.g.
+
 
 
 #### suspicion
@@ -64,3 +67,9 @@ In all systems I can think of, automaticity can be abused.
 - Getting suspicious depends strongly on the ability to audit and introspect. (logfiles)
 
 - Getting suspicious is harder, when acting like a script or saving cognitive ressources.
+
+- Getting suspicious is not to be confused with distrust.
+
+- Getting suspicious is a synonym for being intrigued by something
+
+- Getting suspicious about nearly cognitive and automated machines is a no-brainer
