@@ -2,9 +2,9 @@
 
 We have a fundamental need for security. It follows, that we take responsibility of at least our own needs. For larger groups of humans new requirements appear. And we take care of this via an open dialog on security.
 
-Info security is a fundamental scientific, social and engineering challenge, that interacts strongly with many other common challenges, which humans tend to have in their life. 
+Info security is a fundamental scientific, social and engineering challenge, that interacts strongly with many other common properties and events of human life. 
 
-One of the bigger misunderstanding about people selling computer to customers is, that they there is actually one computer being sold. In truth, a computer consists of many of computers which run software interdependently. Each executes offloaded work from the cpu. All are `fast==trusted==insecure` and have to be taken into acount.
+One of the bigger misunderstanding on people selling computer is, that they there is actually not one computer being sold. In truth, a computer consists of many of pieces of hardware, that are actually a complete compuer themselves. These run software interdependently, offloadeding work to each other. All are `fast==trusted==insecure` and have to be taken into account, when describing the security of any computer.
 
 Xzibits Iron Law of Computer Architecture:
 > Yo dawg, I heard you like computers, so I put a computer in your computer, so you can compute while you compute
@@ -31,9 +31,11 @@ Xzibits Iron Law of Computer Architecture:
 ### anthropolgical
 #### cognition
 
-Human beings generally are cognitive misers, which means they follow routines and try to find easy patterns, that they can use to fallback into some `default` behaviour. We do that since we need all the cognitive resources, that we can muster to complete the current conscious task. All the other details are being intentionally flushed. This enables us to focus on important details.
+Human beings generally are cognitive misers, which means they follow routines and try to find easy patterns, that they can use to fallback into some `default` behaviour. We do that, since we need all the cognitive resources, that we can muster to complete the current conscious action. All the `unrelated` details are being intentionally flushed. This enables us to focus on important details.
 
-However, we can easily become blind towards details, that are not directly connected to the current center of attention. That is the reason why it is so easy to social-engineer people, by providing something inconspiciously `trusted` looking. (see spear phishing, - the most successful attack versus organisations)
+However, we can easily become blind towards details, that are not directly connected to the current center of attention. That is the reason, why it is so easy to social-engineer people: by providing something inconspicious, well known and `trusted`. 
+
+>see spear phishing, - the most successful attack versus organisations
 
 When we are feeling familier with the environment and the job or problem, we tend to anchor fast, and are more likely to neglect unrelated details that do not fit the picture.
 
@@ -55,7 +57,9 @@ In all systems I can think of, automaticity can be abused.
 
 #### suspicion
 
-Getting supicious about some weird event is easier, when assuming less about the situation. Getting suspicious can save networks!
+- Getting supicious is easier, when assuming less about the situation. (most difficult)
 
-Getting suspicious depends strongly on the ability to audit and introspect. 
+- Getting suspicious can save networks! (civil responsibilities)
+
+- Getting suspicious depends strongly on the ability to audit and introspect. (logfiles)
 
