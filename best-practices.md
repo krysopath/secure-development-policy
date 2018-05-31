@@ -1,30 +1,14 @@
 # secure code development principles
 
-## reasons for security incidents
-### conceptual problems
-1. Not identifying security requirements up front
-2. Creating conceptual designs that have logic errors
-3. Using poor coding practices that introduce technical vulnerabilities
-4. Deploying the software improperly
-5. Introducing flaws during maintenance or updating
-
-### environmental problems
-1. The software and its associated information
-2. The operating systems of the associated servers
-3. The backend database
-4. Other applications in a shared environment
-5. The user's system
-6. Other software that the user interacts with
-7. Networking infrastucture
-
-
-## mitigation for security incidents
+## prevention & mitigation for security incidents
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
 NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt)
 
+
+### the project
 The project MUST have at least one primary developer who knows how to design secure software.
 
 >A "primary developer" is anyone who is familiar with the project's code base, is comfortable making changes to it, and is acknowledged as such by most other participants in the project. A primary developer would typically make a number of contributions over the past year (via code, documentation, or answering questions). Developers would typically be considered primary developers if they initiated the project (and have not left the project more than three years ago), have the option of receiving information on a private vulnerability reporting channel (if there is one), can accept commits on behalf of the project, or perform final releases of the project software. If there is only one developer, that individual is the primary developer.
@@ -32,11 +16,10 @@ The project MUST have at least one primary developer who knows how to design sec
 - At least one of the project's primary developers MUST know of common kinds of errors that lead to vulnerabilities in this kind of software, as well as at least one method to counter or mitigate each of them.
 
 
-
 ### knowledge
 SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
-###### key-take-aways:
+###### secure engineering design choices:
 
 - economy of mechanism (keep the design as simple and small as  practical, e.g., by adopting sweeping simplifications)
 
@@ -168,3 +151,9 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 - It is SUGGESTED that if the software produced by the project includes software written using a memory-unsafe language (e.g., C or C++), then at least one dynamic tool (e.g., a fuzzer or web application scanner) be routinely used in combination with a mechanism to detect memory safety problems such as buffer overwrites. (ASAN Address Sanitizer, Memmory Sanitizer, valgrind)
 
 - It is SUGGESTED that the software produced by the project include many run-time assertions that are checked during dynamic analysis.
+
+
+
+
+
+
