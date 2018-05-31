@@ -42,7 +42,8 @@ When we are feeling familier with the environment and the job or problem, we ten
 
 #### automaticity
 
-Additionally, we build scripts for everything: I am talking about behavioural scripts, that are working exactly like those scripts we write. They are being defined by experiences of common events and the memory how it was easiest to solve. 
+Additionally, we write scripts for everything we can automatically: I am talking about behavioural scripts, that are serving the exact same purpose as those scripts we write for food. These behavioural scripts are being defined by past experiences of common events and the memory how it was easiest to solve.
+>Good in finding the way of least resistance, are we? It is actally good to be human at times.
 
 - manners
 - daily waking-up routine
