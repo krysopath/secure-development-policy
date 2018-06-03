@@ -99,7 +99,9 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
 - A cryptographic hash (e.g., a sha1sum) MUST NOT be retrieved over http and used without checking for a cryptographic signature.
 
-- It is SUGGESTED to `git tag --sign <semver>` for each release
+- A project SHOULD `git tag --sign <semver>` each release
+
+- It is SUGGESTED to enable gpg signatures for each commit contributing to the project.
 
 ### vulnerabilities
 
