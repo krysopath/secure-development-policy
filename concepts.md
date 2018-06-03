@@ -1,4 +1,4 @@
-# concepts
+# Concepts
 
 ## Three Goals
 Often computer security objectives (or goals) are described in terms of three overall objectives:
