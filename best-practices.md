@@ -103,6 +103,9 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
 - It is SUGGESTED to enable gpg signatures for each commit contributing to the project.
 
+> Everyone Must Sign: Signing tags and commits is great, but if you decide to use this in your normal workflow, you’ll have to make sure that everyone on your team understands how to do so. If you don’t, you’ll end up spending a lot of time helping people figure out how to rewrite their commits with signed versions. Make sure you understand GPG and the benefits of signing things before adopting this as part of your standard workflow.
+
+
 ### vulnerabilities
 
 - The project MUST publish the process for reporting vulnerabilities on the project site. (URL required)
