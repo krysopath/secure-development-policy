@@ -1,9 +1,9 @@
-#Terms and definitions common in ISO/IEC 15408
+# Terms and definitions common in ISO/IEC 15408
 
-##adverse actions
+## adverse actions
 >actions performed by a threat agent on an asset
 
-##assets
+## assets
 >entities that the owner of the TOE presumably places value upon
 
 ## assurance
@@ -61,7 +61,7 @@ ensure that all possible avenues have been exercised.
 !!!alert
 An external entity can also be referred to as a user. 
 
-##guidance documentation
+## guidance documentation
 >documentation that describes the delivery, preparation, operation, management and/or use of the TOE
 
 ## identity
