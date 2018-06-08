@@ -23,6 +23,7 @@
 
 ## coherent
 >logically ordered and having discernible meaning
+
 !!!alert
 For documentation, this addresses both the actual text and the structure of the document, in terms of whether
 it is understandable by its target audience.
@@ -35,6 +36,7 @@ it is understandable by its target audience.
 
 ## connectivity
 >property of the TOE allowing interaction with IT entities external to the TOE
+
 !!!alert
 This includes exchange of data by wire or by wireless means, over any distance in any environment or
 configuration.
@@ -50,6 +52,7 @@ configuration.
 
 ## exhaustive
 >characteristic of a methodical approach taken to perform an analysis or activity according to an unambiguous plan
+
 !!!alert
 This term is used in ISO/IEC 15408 with respect to conducting an analysis or other activity. It is related to
 “systematic” but is considerably stronger, in that it indicates not only that a methodical approach has been taken to
@@ -58,6 +61,7 @@ ensure that all possible avenues have been exercised.
 
 ## external entity
 >human or IT entity possibly interacting with the TOE from outside of the TOE boundary
+
 !!!alert
 An external entity can also be referred to as a user. 
 
@@ -66,17 +70,20 @@ An external entity can also be referred to as a user.
 
 ## identity
 >representation uniquely identifying entities (e.g. a user, a process or a disk) within the context of the TOE
+
 !!!alert
 An example of such a representation is a string. For a human user, the representation can be the full or
 abbreviated name or a (still unique) pseudonym.
 
 ## internally consistent
 no apparent contradictions exist between any aspects of an entity
+
 !!!alert
 In terms of documentation, this means that there can be no statements within the documentation that can be taken to contradict each other.
 
 ## organizational security policy
 >set of security rules, procedures, or guidelines for an organization
+
 !!!alert
 A policy may pertain to a specific operational environment.
 
@@ -130,6 +137,7 @@ A policy may pertain to a specific operational environment.
 
 ## trusted IT product
 > IT product, other than the TOE, which has its security functional requirements administratively coordinated with the TOE and which is assumed to enforce its security functional requirements correctly
+
 !!!alert
 An example of a trusted IT product would be one that has been separately evaluated.
 
