@@ -1,4 +1,4 @@
-# Terms and definitions common in ISO/IEC 15408
+# Terms and definitions
 
 ## adverse actions
 >actions performed by a threat agent on an asset
