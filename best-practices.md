@@ -99,7 +99,12 @@ SUGGESTED read http://web.mit.edu/Saltzer/www/publications/protection/
 
 - A cryptographic hash (e.g., a sha1sum) MUST NOT be retrieved over http and used without checking for a cryptographic signature.
 
-- It is SUGGESTED to `git tag --sign <semver>` for each release
+- A project SHOULD `git tag --sign <semver>` each release
+
+- It is SUGGESTED to enable gpg signatures for each commit contributing to the project.
+
+> Everyone Must Sign: Signing tags and commits is great, but if you decide to use this in your normal workflow, you’ll have to make sure that everyone on your team understands how to do so. If you don’t, you’ll end up spending a lot of time helping people figure out how to rewrite their commits with signed versions. Make sure you understand GPG and the benefits of signing things before adopting this as part of your standard workflow.
+
 
 ### vulnerabilities
 
